@@ -24,6 +24,7 @@ ul {
 
 .container {
   max-width: 960px;
+  padding: 0 15px;
 }
 
 button {
@@ -208,4 +209,47 @@ button {
 
 .user__name {
   margin-right: 20px;
+}
+
+.features {
+  padding: 75px 0 80px;
+  background-color: #ffffff;
+}
+.features__title {
+  font-size: 36px;
+  line-height: 38px;
+  color: #132d03;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.features__item {
+  text-align: center;
+}
+
+.features__item-img {
+  border: 2px solid #368c02;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 0 auto;
+}
+.features__item-img img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+}
+
+.features__item-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 28px;
+}
+
+.features__item-text {
+  font-size: 18px;
 }
