@@ -29,6 +29,7 @@ ul {
 
 button {
   display: block;
+  margin: 0;
 }
 
 .red-btn {
@@ -241,7 +242,7 @@ button {
   bottom: 0;
   left: 0;
   right: 0;
-  margin: auto auto;
+  margin: auto;
 }
 
 .features__item-title {
@@ -252,4 +253,83 @@ button {
 
 .features__item-text {
   font-size: 18px;
+}
+
+.offer {
+  background-image: url(../img/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  text-align: right;
+  padding: 80px 0 60px;
+}
+
+.offer__inner {
+  text-align: center;
+}
+
+.offer__title {
+  font-size: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.offer__text {
+  font-size: 33px;
+  line-height: 40px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.offer__month {
+  font-size: 30px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.offer__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offer__form input {
+  background-color: #f7f7f7;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  color: #626262;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 18px 20px;
+  outline: none;
+  width: 410px;
+}
+
+.offer__form-input:first-child {
+  margin-bottom: 10px;
+}
+
+.offer__btn {
+  margin-top: 20px;
+  font-size: 20px;
+  width: 410px;
+  padding: 23px 30px;
+}
+
+.counter {
+  padding: 30px 0;
+  text-align: center;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0) 48%, rgba(0, 0, 0, 0.06) 50%, rgba(0, 0, 0, 0) 52%), linear-gradient(-45deg, rgba(0, 0, 0, 0) 48%, rgba(0, 0, 0, 0.06) 50%, rgba(0, 0, 0, 0) 52%);
+  background-size: 20px 20px;
+  background-color: #ab0d19;
+}
+
+.counter__info {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
 }
