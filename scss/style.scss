@@ -354,6 +354,37 @@ button {
   color: #ffffff;
 }
 
+.counter__sum {
+  background-color: #ffffff;
+  color: #464646;
+  padding: 6px 13px;
+  border-radius: 12px;
+  margin: 0 2.5px;
+  position: relative;
+  z-index: 10;
+  &::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #e8e8e8;
+    position: absolute;
+    top: 49%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
 
+.counter__number {
+  z-index: 10;
+}
+
+.left-span {
+  margin-left: 50px;
+}
+
+.right-span {
+  margin-right: 50px;
+}
 
 @import "media";
