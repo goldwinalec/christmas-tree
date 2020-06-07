@@ -136,7 +136,7 @@ button {
 }
 
 .promo {
-  padding: 70px 0;
+  padding: 70px 0 45px;
   background-image: url("../img/bg-1.jpg");
   background-size: auto;
   background-position: top center;
@@ -174,11 +174,38 @@ button {
 
 .promo__form {
   margin-top: 115px;
+  padding: 40px 50px;
   max-width: 640px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.15);
+  z-index: 5;
+}
+.promo__form input {
+  background-color: #f7f7f7;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  color: #626262;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 18px 20px;
+  outline: none;
 }
 
 .form-title {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+  margin-bottom: 43px;
+}
+
+.form__btn {
+  margin: 37px auto 0;
+  padding: 15px 80px;
+  font-size: 20px;
+}
+
+.user__name {
+  margin-right: 20px;
 }
