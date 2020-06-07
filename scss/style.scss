@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   color: #000;
   background-color: #fff;
@@ -28,6 +28,10 @@ ul {
   max-width: 960px;
 }
 
+button {
+  display: block;
+}
+
 .red-btn {
   background: linear-gradient(to bottom, #e30000 0%, #8c0202 95%, #640000 97%);
   border-radius: 5px;
@@ -38,7 +42,7 @@ ul {
   text-transform: uppercase;
   padding: 12px 30px;
   line-height: 1.1;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.17);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.17);
 
   &:hover {
     color: #fff;
@@ -60,7 +64,7 @@ ul {
   text-transform: uppercase;
   padding: 12px 30px;
   line-height: 1.1;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.17);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.17);
 
   &:hover {
     color: #fff;
@@ -140,9 +144,9 @@ ul {
 
 .promo {
   padding: 70px 0;
-  background-image: url('../img/bg-1.jpg');
+  background-image: url("../img/bg-1.jpg");
   background-size: auto;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
@@ -180,7 +184,6 @@ ul {
 .promo__form {
   margin-top: 115px;
   max-width: 640px;
-  
 }
 
 .form-title {
@@ -188,6 +191,5 @@ ul {
   font-size: 30px;
   font-weight: bold;
 }
-
 
 @import "media";
