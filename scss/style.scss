@@ -737,6 +737,9 @@ button {
 .contacts__list-phone {
   font-size: 20px;
   font-weight: 700;
+  a:hover{
+    color: #000000;
+  }
   &::before{
     content: "";
     width: 25px;
