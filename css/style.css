@@ -311,6 +311,7 @@ button {
 }
 .features__item {
   text-align: center;
+  padding: 10px;
 }
 
 .features__item-img {
@@ -338,6 +339,8 @@ button {
 
 .features__item-text {
   font-size: 18px;
+  font-weight: 400;
+  display: block;
 }
 
 .offer {
@@ -633,6 +636,38 @@ button {
 }
 
 .catalog-2__title {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.catalog-3 {
+  padding-top: 75px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-image: url(../img/catalog-3-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.catalog-3__title {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: #ffffff;
+}
+
+.catalog-4 {
+  background-color: #f4f4f4;
+  padding-top: 75px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.catalog-4__title {
   font-size: 36px;
   text-transform: uppercase;
   font-weight: 700;
