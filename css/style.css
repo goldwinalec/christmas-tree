@@ -22,6 +22,11 @@ ul {
   padding: 0;
 }
 
+a {
+  color: inherit;
+  display: block;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -157,7 +162,8 @@ button {
   outline: none;
 }
 
-.header {
+.header,
+.footer {
   padding-top: 20px;
   padding-bottom: 15px;
 }
@@ -198,7 +204,8 @@ button {
   margin-top: 10px;
 }
 
-.header__contacts-left {
+.header__contacts-left,
+.footer__contacts-left {
   margin-right: 40px;
 }
 
@@ -672,4 +679,84 @@ button {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 60px;
+}
+
+.contacts {
+  padding: 30px 0;
+  background-image: url(../img/map.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.contacts__block {
+  padding: 55px;
+  padding-right: 115px;
+  background-color: #ffffff;
+  box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
+}
+
+.contacs__title {
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.contacts__list {
+  font-size: 18px;
+}
+.contacts__list li {
+  margin-bottom: 35px;
+  padding-left: 55px;
+  position: relative;
+}
+.contacts__list li:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__list-phone {
+  font-size: 20px;
+  font-weight: 700;
+}
+.contacts__list-phone::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/phone.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+
+.contacts__list-address::before {
+  content: "";
+  width: 23px;
+  height: 31px;
+  background-image: url(../img/marker.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: -5px;
+  z-index: 10;
+}
+
+.contacts__list-schedule::before {
+  content: "";
+  width: 28px;
+  height: 27px;
+  background-image: url(../img/time.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  z-index: 10;
 }
