@@ -355,10 +355,6 @@ button {
   z-index: 1;
 }
 
-.counter__number {
-  z-index: 10;
-}
-
 .left-span {
   margin-left: 50px;
 }
