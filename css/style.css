@@ -424,3 +424,42 @@ button {
   display: block;
   margin: 0 auto;
 }
+
+.feedback {
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+
+.feedback__title {
+  text-align: center;
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+.feedback__item {
+  display: flex;
+  align-items: start;
+}
+
+.feedback__img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.feedback__item {
+  margin-bottom: 50px;
+}
+
+.feedback__item-list {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.feedback__btn {
+  font-size: 18px;
+  width: 300px;
+  margin-top: 15px;
+}
