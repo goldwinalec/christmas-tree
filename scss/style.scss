@@ -19,7 +19,8 @@ body {
 }
 
 li,
-ul {
+ul,
+p {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -27,6 +28,7 @@ ul {
 
 a{
   color: inherit;
+  font-size: inherit;
   display: block;
 }
 
@@ -186,7 +188,7 @@ button {
   font-size: 14px;
 }
 
-.contacts-email a {
+.contacts-email {
   font-size: 14px;
   color: #368c02;
   text-decoration: underline;
@@ -227,6 +229,10 @@ button {
   align-items: center;
 }
 
+.navlist-item{
+  margin: 0 5px;
+}
+
 .navlist-item a {
   color: #fff;
   text-decoration: underline;
@@ -240,7 +246,7 @@ button {
 .promo {
   padding: 70px 0 45px;
   background-image: url("../img/bg-1.jpg");
-  background-size: auto;
+  background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -274,6 +280,7 @@ button {
 .promo__text {
   font-size: 29px;
   margin-top: 60px;
+  text-align: center;
 }
 
 .promo__form {
@@ -784,4 +791,4 @@ button {
   z-index: 10;
 }
 
-// @import "media";
+@import "media";

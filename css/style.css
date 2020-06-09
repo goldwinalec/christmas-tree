@@ -17,7 +17,8 @@ body {
 }
 
 li,
-ul {
+ul,
+p {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -25,6 +26,7 @@ ul {
 
 a {
   color: inherit;
+  font-size: inherit;
   display: block;
 }
 
@@ -180,7 +182,7 @@ button {
   font-size: 14px;
 }
 
-.contacts-email a {
+.contacts-email {
   font-size: 14px;
   color: #368c02;
   text-decoration: underline;
@@ -221,6 +223,10 @@ button {
   align-items: center;
 }
 
+.navlist-item {
+  margin: 0 5px;
+}
+
 .navlist-item a {
   color: #fff;
   text-decoration: underline;
@@ -233,7 +239,7 @@ button {
 .promo {
   padding: 70px 0 45px;
   background-image: url("../img/bg-1.jpg");
-  background-size: auto;
+  background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -265,6 +271,7 @@ button {
 .promo__text {
   font-size: 29px;
   margin-top: 60px;
+  text-align: center;
 }
 
 .promo__form {
@@ -763,4 +770,231 @@ button {
   left: 0;
   top: 3px;
   z-index: 10;
+}
+
+@media screen and (max-width: 992px) {
+  .navlist {
+    justify-content: space-around;
+  }
+
+  .contacts-phone {
+    margin-top: 7px;
+  }
+
+  .header__contacts-left,
+  .footer__contacts-left {
+    margin-right: 20px;
+  }
+
+  .promo__form input {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+
+  .user__name {
+    margin-right: 10px;
+  }
+
+  .form-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+
+  .form__btn {
+    margin: 28px auto 0;
+    padding: 15px 40px;
+    font-size: 18px;
+  }
+
+  .promo__form {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px;
+    max-width: 500px;
+  }
+
+  .features__title {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contacts-phone a {
+    font-size: 16px;
+  }
+  .contacts-phone a:last-child {
+    margin-top: 5px;
+  }
+
+  .call-btn {
+    width: 150px;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+  }
+
+  .header__contacts-left,
+  .footer__contacts-left {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .contacts-text {
+    font-size: 13px;
+  }
+
+  .contacts-phone {
+    margin-top: 10px;
+  }
+
+  .promo {
+    padding: 45px 0;
+  }
+
+  .promo__title h1 {
+    font-size: 45px;
+    max-width: 740px;
+  }
+
+  .promo__title span {
+    font-size: 38px;
+    max-width: 625px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__logo,
+  .footer__logo {
+    width: 220px;
+  }
+
+  .navlist-item a {
+    font-size: 16px;
+  }
+
+  .promo__title h1 {
+    font-size: 34px;
+    max-width: 560px;
+  }
+
+  .promo__title span {
+    font-size: 31px;
+    max-width: 505px;
+  }
+
+  .promo__text {
+    font-size: 21px;
+    margin-top: 30px;
+  }
+
+  .promo__form {
+    margin-top: 35px;
+    padding: 20px;
+  }
+
+  .form-title {
+    font-size: 21px;
+    margin-bottom: 13px;
+  }
+
+  .promo__form input {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px 0;
+  }
+
+  .form__btn {
+    margin: 10px auto 0;
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header__logo,
+  .footer__logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .header-content,
+  .footer-content {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .navlist-item a {
+    font-size: 14px;
+  }
+
+  .navlist {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .promo__title h1 {
+    font-size: 30px;
+    min-width: 270px;
+    max-width: 345px;
+  }
+
+  .promo__title span {
+    font-size: 30px;
+    min-width: 270px;
+    max-width: 341px;
+  }
+
+  .promo,
+  .features {
+    padding: 40px 0;
+  }
+
+  .call-btn {
+    width: 140px;
+    font-size: 12px;
+  }
+
+  .contacts-phone a {
+    font-size: 15px;
+  }
+
+  .promo__text {
+    font-size: 17px;
+    margin-top: 30px;
+  }
+
+  .promo__form {
+    margin-top: 35px;
+    padding: 20px;
+  }
+
+  .form-title {
+    font-size: 17px;
+    margin-bottom: 13px;
+  }
+
+  .promo__form input {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    width: 100%;
+  }
+
+  .form__btn {
+    margin: 10px auto 0;
+    padding: 15px 30px;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .promo__form {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    max-width: 420px;
+  }
+}
+@media screen and (max-width: 355px) {
+  .navlist {
+    justify-content: space-between;
+  }
 }
