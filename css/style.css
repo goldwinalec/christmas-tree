@@ -255,7 +255,7 @@ button {
   max-width: 860px;
   margin: 0 auto;
 }
-.promo__title span {
+.promo__title h2 {
   display: block;
   background: linear-gradient(to bottom, #44b400, #3a9702);
   color: #fff;
@@ -583,6 +583,7 @@ button {
   font-size: 36px;
   text-transform: uppercase;
   margin-bottom: 80px;
+  font-weight: 700;
 }
 
 .production__item-title {
@@ -888,7 +889,7 @@ button {
     max-width: 740px;
   }
 
-  .promo__title span {
+  .promo__title h2 {
     font-size: 38px;
     max-width: 625px;
   }
