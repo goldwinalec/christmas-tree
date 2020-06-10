@@ -569,11 +569,12 @@ button {
 }
 
 .feedback__img {
+  display: block;
   border-radius: 50%;
   margin-right: 20px;
 }
 
-.feedback__item {
+.feedback__box {
   margin-bottom: 50px;
 }
 
@@ -606,6 +607,10 @@ button {
 
 .production__item-title {
   margin-top: 15px;
+}
+
+.production__img {
+  object-fit: contain;
 }
 
 .catalog-1 {

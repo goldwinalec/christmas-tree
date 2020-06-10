@@ -549,11 +549,12 @@ button {
 }
 
 .feedback__img {
+  display: block;
   border-radius: 50%;
   margin-right: 20px;
 }
 
-.feedback__item {
+.feedback__box {
   margin-bottom: 50px;
 }
 
@@ -586,6 +587,10 @@ button {
 
 .production__item-title {
   margin-top: 15px;
+}
+
+.production__img {
+  object-fit: contain;
 }
 
 .catalog-1 {
@@ -779,7 +784,10 @@ button {
 @media screen and (max-width: 992px) {
   .promo,
   .offer,
-  .features {
+  .features,
+  .sets,
+  .feedback,
+  .production {
     padding: 45px 0;
   }
 
@@ -875,6 +883,33 @@ button {
 
   .right-span {
     margin-right: 15px;
+  }
+
+  .feedback__title {
+    margin-bottom: 60px;
+  }
+
+  .feedback__box {
+    max-width: 460px;
+    margin: 0 10px 30px;
+  }
+
+  .feedback__item-list,
+  .feedback__text {
+    font-size: 14px;
+  }
+
+  .feedback__btn {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .production__img {
+    max-width: 100%;
+  }
+
+  .production__title {
+    margin-bottom: 45px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -1000,6 +1035,19 @@ button {
     font-size: 16px;
     line-height: 20px;
     margin: 15px 0;
+  }
+
+  .feedback__box {
+    margin: 0 auto 40px;
+  }
+
+  .production {
+    background-size: contain;
+    background-position: top center;
+  }
+
+  .production__item-title {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -1140,6 +1188,32 @@ button {
 
   .sets__item-info {
     margin: 25px 0;
+  }
+
+  .feedback__box {
+    margin: 0 auto 40px;
+    padding: 0 15px;
+  }
+
+  .feedback__item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feedback__title {
+    margin-bottom: 45px;
+  }
+
+  .production__item {
+    padding: 15px;
+  }
+
+  .production__title {
+    margin-bottom: 30px;
+  }
+
+  .production {
+    background-image: none;
   }
 }
 @media screen and (max-width: 355px) {
