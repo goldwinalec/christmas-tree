@@ -828,6 +828,12 @@ button {
   right: 10px;
 }
 
+.slick-slide,
+.slick-arrow,
+.slick-arrow:focus {
+  outline: none;
+}
+
 .top-btn {
   position: fixed;
   bottom: 16px;
