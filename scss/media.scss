@@ -1,250 +1,282 @@
 @media screen and (max-width: 992px) {
-    .navlist {
+  .promo,
+  .offer,
+  .features {
+    padding: 45px 0;
+  }
+  .navlist {
     justify-content: space-around;
-    }
-    .contacts-phone{
-        margin-top: 7px;
-    }
-    .header__contacts-left,
-    .footer__contacts-left{
-        margin-right: 20px;
-    }
-    .promo__form input {
-    font-size: 14px;
-    padding: 15px 10px;
-    }
-    .user__name{
+  }
+  .contacts-phone {
+    margin-top: 7px;
+  }
+  .header__contacts-left,
+  .footer__contacts-left {
+    margin-right: 20px;
+  }
+  .user__name {
     margin-right: 10px;
-    }
-    .form-title {
+  }
+  .form-title {
     font-size: 26px;
     margin-bottom: 30px;
-    }
-    .form__btn {
+  }
+  .form__btn {
     margin: 28px auto 0;
     padding: 15px 40px;
     font-size: 18px;
-}
-.promo__form {
+  }
+  .promo__form input {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+  .promo__form {
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px 30px;
     max-width: 500px;
-}
-.features__title{
-    margin-bottom: 50px;
-}
-.features__item-title {
-    font-size: 16px;
-}
-.features__item-text{
-    font-size: 14px;
-}
-.offer__month {
-    font-size: 26px;
-    margin-bottom: 40px;
-}
-.offer__title {
-    font-size: 40px;
-}
-.offer__text {
-    font-size: 27px;
-    margin-bottom: 20px;
-}
-.offer__form input,
-.offer__btn {
-    max-width: 350px;
-}
-}
-
-
-@media screen and (max-width: 900px) {
-    .contacts-phone a{
-        font-size: 16px;
-        &:last-child{
-            margin-top: 5px;
-        }
-    }
-    .call-btn{
-        width: 150px;
-        font-size: 14px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-top: 10px;
-    }
-    .header__contacts-left,
-    .footer__contacts-left{
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-    .contacts-text {
-    font-size: 13px;
-}
-    .contacts-phone{
-        margin-top: 10px;
-    }
-    .promo,
-    .offer{
-        padding: 45px 0;
-    }
-    .promo__title h1 {
+  }
+  .promo__title h1 {
     font-size: 45px;
     max-width: 740px;
-    }
-    .promo__title span {
+  }
+  .promo__title span {
     font-size: 38px;
     max-width: 625px;
+  }
+  .features__title {
+    margin-bottom: 50px;
+  }
+  .features__item-title {
+    font-size: 16px;
+  }
+  .features__item-text {
+    font-size: 14px;
+  }
+  .offer__month {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  .offer__title {
+    font-size: 40px;
+  }
+  .offer__text {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+  .offer__form input,
+  .offer__btn {
+    max-width: 350px;
+  }
+  .counter__info {
+    font-size: 35px;
+  }
+  .left-span {
+    margin-left: 15px;
+  }
+  .right-span {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contacts-phone a {
+    font-size: 16px;
+    &:last-child {
+      margin-top: 5px;
     }
+  }
+  .call-btn {
+    width: 150px;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+  }
+  .header__contacts-left,
+  .footer__contacts-left {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .contacts-text {
+    font-size: 13px;
+  }
+  .contacts-phone {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .header__logo,
-    .footer__logo{
-        width: 220px;
-    }
-    .navlist-item a {
-        font-size: 16px;
-    }
-    .promo__title h1 {
+  .header__logo,
+  .footer__logo {
+    width: 220px;
+  }
+  .navlist-item a {
+    font-size: 16px;
+  }
+  .promo__title h1 {
     font-size: 34px;
     max-width: 560px;
-}
-    .promo__title span {
+  }
+  .promo__title span {
     font-size: 31px;
     max-width: 505px;
-    }
-    .promo__text{
+  }
+  .promo__text {
     font-size: 21px;
     margin-top: 30px;
-    }
-    .promo__form {
+  }
+  .promo__form {
     margin-top: 35px;
     padding: 20px;
-    }
-    .form-title {
+  }
+  .form-title {
     font-size: 21px;
     margin-bottom: 13px;
-    }
-    .promo__form input {
+  }
+  .promo__form input {
     font-size: 16px;
     margin: 5px 0;
-    }
-    .form__btn {
+  }
+  .form__btn {
     margin: 10px auto 0;
     padding: 15px 30px;
     font-size: 18px;
-}
-.offer__month {
+  }
+  .offer__month {
     font-size: 23px;
-}
-.offer__title {
+  }
+  .offer__title {
     font-size: 35px;
-}
-.offer__text {
+  }
+  .offer__text {
     font-size: 23px;
-}
-}
-
-@media screen and (max-width: 687px) {
+  }
+  .title {
+    font-size: 30px;
+  }
+  .counter {
+    padding: 20px 0;
+  }
+  .counter__info {
+    font-size: 25px;
+  }
+  .counter__sum {
+    padding: 9px 13px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .header__logo,
-    .footer__logo{
-        display: block;
-        margin: 0 auto;
-    }
-    .header-content,
-    .footer-content{
-        justify-content: center;
-        margin-top: 10px;
-    }
-    .navlist-item a {
-        font-size: 14px;
-    }
-    .navlist{
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-.promo__title h1 {
+  .header__logo,
+  .footer__logo {
+    display: block;
+    margin: 0 auto;
+  }
+  .header-content,
+  .footer-content {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .navlist-item a {
+    font-size: 14px;
+  }
+  .navlist {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .promo__title h1 {
     font-size: 30px;
     min-width: 270px;
     max-width: 345px;
-    }
-    .promo__title span {
+  }
+  .promo__title span {
     font-size: 30px;
     min-width: 270px;
     max-width: 341px;
-    }
-    .promo,
-    .features{
-        padding: 40px 0;
-    }
-    .call-btn {
+  }
+  .promo,
+  .features {
+    padding: 40px 0;
+  }
+  .call-btn {
     width: 140px;
     font-size: 12px;
-    }
-    .contacts-phone a {
+  }
+  .contacts-phone a {
     font-size: 15px;
-    }
-    .promo__text{
+  }
+  .promo__text {
     font-size: 17px;
     margin-top: 30px;
-    }
-    .form-title {
+  }
+  .form-title {
     font-size: 17px;
     margin-bottom: 13px;
-    }
-    .promo__form input {
+  }
+  .promo__form input {
     font-size: 14px;
     margin: 5px 0;
     width: 100%;
-    }
-    .form__btn {
+  }
+  .form__btn {
     margin: 10px auto 0;
     font-size: 15px;
     width: 100%;
-}
-.promo__form {
+  }
+  .promo__form {
     margin-top: 35px;
     margin-left: auto;
     margin-right: auto;
     max-width: 420px;
-}
-.features__title{
+  }
+  .title {
     font-size: 28px;
-}
+  }
 
-.offer__title {
+  .offer__title {
     font-size: 25px;
-}
-.offer__text {
+  }
+  .offer__text {
     font-size: 16px;
-}
-.offer__month{
+  }
+  .offer__month {
     font-size: 15px;
     margin-bottom: 25px;
-}
-.offer__form input,
-.offer__btn {
+  }
+  .offer__form input,
+  .offer__btn {
     width: 100%;
-}
-.offer__btn{
+  }
+  .offer__btn {
     font-size: 16px;
     margin-top: 15px;
     padding: 20px;
-}
-.offer__form input {
+  }
+  .offer__form input {
     font-size: 14px;
     padding: 15px 10px;
+  }
+  .counter__info {
+    font-size: 16px;
+  }
+  .counter {
+    padding: 15px 0;
+  }
+  .left-span {
+    margin-left: 5px;
+  }
+  .right-span {
+    margin-right: 5px;
+  }
+  .counter__sum {
+    padding: 6px 8px;
+    border-radius: 7px;
+  }
 }
-}
-
 
 @media screen and (max-width: 355px) {
-    .navlist{
-        justify-content: space-between;
-    }
+  .navlist {
+    justify-content: space-between;
+  }
 }
-

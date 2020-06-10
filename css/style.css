@@ -773,6 +773,12 @@ button {
 }
 
 @media screen and (max-width: 992px) {
+  .promo,
+  .offer,
+  .features {
+    padding: 45px 0;
+  }
+
   .navlist {
     justify-content: space-around;
   }
@@ -784,11 +790,6 @@ button {
   .header__contacts-left,
   .footer__contacts-left {
     margin-right: 20px;
-  }
-
-  .promo__form input {
-    font-size: 14px;
-    padding: 15px 10px;
   }
 
   .user__name {
@@ -806,12 +807,27 @@ button {
     font-size: 18px;
   }
 
+  .promo__form input {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+
   .promo__form {
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px 30px;
     max-width: 500px;
+  }
+
+  .promo__title h1 {
+    font-size: 45px;
+    max-width: 740px;
+  }
+
+  .promo__title span {
+    font-size: 38px;
+    max-width: 625px;
   }
 
   .features__title {
@@ -844,6 +860,18 @@ button {
   .offer__btn {
     max-width: 350px;
   }
+
+  .counter__info {
+    font-size: 35px;
+  }
+
+  .left-span {
+    margin-left: 15px;
+  }
+
+  .right-span {
+    margin-right: 15px;
+  }
 }
 @media screen and (max-width: 900px) {
   .contacts-phone a {
@@ -873,21 +901,6 @@ button {
 
   .contacts-phone {
     margin-top: 10px;
-  }
-
-  .promo,
-  .offer {
-    padding: 45px 0;
-  }
-
-  .promo__title h1 {
-    font-size: 45px;
-    max-width: 740px;
-  }
-
-  .promo__title span {
-    font-size: 38px;
-    max-width: 625px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -946,6 +959,22 @@ button {
 
   .offer__text {
     font-size: 23px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .counter {
+    padding: 20px 0;
+  }
+
+  .counter__info {
+    font-size: 25px;
+  }
+
+  .counter__sum {
+    padding: 9px 13px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -1025,7 +1054,7 @@ button {
     max-width: 420px;
   }
 
-  .features__title {
+  .title {
     font-size: 28px;
   }
 
@@ -1056,6 +1085,27 @@ button {
   .offer__form input {
     font-size: 14px;
     padding: 15px 10px;
+  }
+
+  .counter__info {
+    font-size: 16px;
+  }
+
+  .counter {
+    padding: 15px 0;
+  }
+
+  .left-span {
+    margin-left: 5px;
+  }
+
+  .right-span {
+    margin-right: 5px;
+  }
+
+  .counter__sum {
+    padding: 6px 8px;
+    border-radius: 7px;
   }
 }
 @media screen and (max-width: 355px) {
