@@ -1016,7 +1016,7 @@ button {
     max-width: 560px;
   }
 
-  .promo__title span {
+  .promo__title h2 {
     font-size: 31px;
     max-width: 505px;
   }
@@ -1137,7 +1137,7 @@ button {
     max-width: 345px;
   }
 
-  .promo__title span {
+  .promo__title h2 {
     font-size: 30px;
     min-width: 270px;
     max-width: 341px;
