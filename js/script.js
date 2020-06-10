@@ -77,3 +77,29 @@ $(`a[href^="#catalog-4"]`).click(function () {
     1000
   );
 });
+
+buttonTop = document.getElementById("top-btn");
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 700 ||
+    document.documentElement.scrollTop > 700
+  ) {
+    buttonTop.style.display = "block";
+  } else {
+    buttonTop.style.display = "none";
+  }
+}
+
+$("#top-btn").click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $("#top").offset().top,
+    },
+    1000
+  );
+});
