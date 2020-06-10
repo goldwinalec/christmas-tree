@@ -1,7 +1,3 @@
-// $(".catalog-slider").slick({
-
-// });
-
 $(window).on("load resize", function () {
   if ($(window).width() < 576) {
     $("#catalog-slider:not(.slick-initialized)").slick({
@@ -11,4 +7,73 @@ $(window).on("load resize", function () {
   } else {
     $("#catalog-slider.slick-initialized").slick("unslick");
   }
+});
+
+$(".call-btn").click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $("#offer").offset().top,
+    },
+    1000
+  );
+});
+
+$(".catalog__btn").click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $("#offer").offset().top,
+    },
+    1000
+  );
+});
+
+$(".feedback__btn").click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $("#offer").offset().top,
+    },
+    1000
+  );
+});
+
+$(".sets__btn").click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $("#offer").offset().top,
+    },
+    1000
+  );
+});
+
+$(`a[href^="#catalog-1"]`).click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $("#catalog-1").offset().top,
+    },
+    1000
+  );
+});
+$(`a[href^="#catalog-2"]`).click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $("#catalog-2").offset().top,
+    },
+    1000
+  );
+});
+$(`a[href^="#catalog-3"]`).click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $("#catalog-3").offset().top,
+    },
+    1000
+  );
+});
+$(`a[href^="#catalog-4"]`).click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $("#catalog-4").offset().top,
+    },
+    1000
+  );
 });
