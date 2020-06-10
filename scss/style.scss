@@ -26,7 +26,7 @@ p {
   padding: 0;
 }
 
-a{
+a {
   color: inherit;
   font-size: inherit;
   display: block;
@@ -229,7 +229,7 @@ button {
   align-items: center;
 }
 
-.navlist-item{
+.navlist-item {
   margin: 0 5px;
 }
 
@@ -505,9 +505,9 @@ button {
 .sets__top-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: left;
-  padding: 0 40px 0 10px;
+  padding: 0 40px;
 }
 
 .sets__item-li {
@@ -543,6 +543,10 @@ button {
   width: 220px;
   display: block;
   margin: 0 auto;
+}
+
+.sets__img {
+  margin-right: 5px;
 }
 
 .feedback {
@@ -686,7 +690,7 @@ button {
   background-position: center center;
 }
 
-.catalog-3__title{
+.catalog-3__title {
   font-size: 36px;
   text-transform: uppercase;
   font-weight: 700;
@@ -716,27 +720,27 @@ button {
   background-position: center center;
 }
 
-.contacts__block{
+.contacts__block {
   padding: 55px;
   padding-right: 115px;
   background-color: #ffffff;
   box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
 }
 
-.contacs__title{
+.contacs__title {
   font-size: 30px;
   font-weight: 800;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
 
-.contacts__list{
+.contacts__list {
   font-size: 18px;
   li {
     margin-bottom: 35px;
     padding-left: 55px;
     position: relative;
-    &:last-child{
+    &:last-child {
       margin-bottom: 0;
     }
   }
@@ -745,10 +749,10 @@ button {
 .contacts__list-phone {
   font-size: 20px;
   font-weight: 700;
-  a:hover{
+  a:hover {
     color: #000000;
   }
-  &::before{
+  &::before {
     content: "";
     width: 25px;
     height: 25px;

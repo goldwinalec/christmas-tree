@@ -165,6 +165,23 @@
   .counter__sum {
     padding: 9px 13px;
   }
+  .sets__item-li {
+    padding-left: 20px;
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+  .sets__top-inner {
+    padding: 0 10px;
+  }
+  .sets__item-li::before {
+    width: 15px;
+    height: 20px;
+  }
+  .sets__item-info {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 15px 0;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -272,6 +289,13 @@
   .counter__sum {
     padding: 6px 8px;
     border-radius: 7px;
+  }
+  .sets__item {
+    max-width: 350px;
+    margin: 0 auto 20px;
+  }
+  .sets__item-info {
+    margin: 25px 0;
   }
 }
 

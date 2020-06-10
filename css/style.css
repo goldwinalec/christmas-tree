@@ -485,9 +485,9 @@ button {
 .sets__top-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: left;
-  padding: 0 40px 0 10px;
+  padding: 0 40px;
 }
 
 .sets__item-li {
@@ -523,6 +523,10 @@ button {
   width: 220px;
   display: block;
   margin: 0 auto;
+}
+
+.sets__img {
+  margin-right: 5px;
 }
 
 .feedback {
@@ -976,6 +980,27 @@ button {
   .counter__sum {
     padding: 9px 13px;
   }
+
+  .sets__item-li {
+    padding-left: 20px;
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+
+  .sets__top-inner {
+    padding: 0 10px;
+  }
+
+  .sets__item-li::before {
+    width: 15px;
+    height: 20px;
+  }
+
+  .sets__item-info {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 15px 0;
+  }
 }
 @media screen and (max-width: 576px) {
   .header__logo,
@@ -1106,6 +1131,15 @@ button {
   .counter__sum {
     padding: 6px 8px;
     border-radius: 7px;
+  }
+
+  .sets__item {
+    max-width: 350px;
+    margin: 0 auto 20px;
+  }
+
+  .sets__item-info {
+    margin: 25px 0;
   }
 }
 @media screen and (max-width: 355px) {
