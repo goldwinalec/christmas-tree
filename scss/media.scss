@@ -4,7 +4,11 @@
   .features,
   .sets,
   .feedback,
-  .production {
+  .production,
+  .catalog-1,
+  .catalog-2,
+  .catalog-3,
+  .catalog-4 {
     padding: 45px 0;
   }
   .navlist {
@@ -101,6 +105,12 @@
   }
   .production__title {
     margin-bottom: 45px;
+  }
+  .catalog-1__title,
+  .catalog-2__title,
+  .catalog-3__title,
+  .catalog-4__title {
+    margin-bottom: 30px;
   }
 }
 
@@ -350,6 +360,25 @@
   }
   .production {
     background-image: none;
+  }
+  .catalog__item-inner {
+    margin-bottom: 5px;
+  }
+  .catalog__item {
+    margin: 0 auto;
+  }
+  .contacts__block {
+    margin: 0 auto;
+    padding: 35px 20px;
+  }
+  .contacts__title {
+    text-align: center;
+  }
+  .contacts__list {
+    font-size: 16px;
+  }
+  .contacts__list-phone {
+    font-size: 18px;
   }
 }
 

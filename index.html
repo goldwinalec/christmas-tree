@@ -11,6 +11,7 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"
     rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -57,7 +58,7 @@
       </div>
     </div>
   </div>
-  <!-- <section class="promo">
+  <section class="promo">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -181,7 +182,7 @@
         </div>
       </div>
     </div>
-  </section> 
+  </section>
   <section class="counter">
     <div class="container">
       <div class="row">
@@ -382,7 +383,6 @@
       </div>
     </div>
   </section>
--->
   <section class="production">
     <div class="container">
       <div class="row">
@@ -416,16 +416,17 @@
       </div>
     </div>
   </section>
-  <!--
   <section class="catalog-1" id="catalog-1">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-12">
           <div class="catalog-1__title title">Каталог искусственных елок</div>
         </div>
-        <div class="col-lg-3">
+      </div>
+      <div class="row justify-content-center catalog-slider" id="catalog-slider">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -448,9 +449,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -473,9 +474,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -498,9 +499,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -523,9 +524,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -548,9 +549,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -573,9 +574,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -598,9 +599,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -629,12 +630,14 @@
   <section class="catalog-2" id="catalog-2">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-12">
           <div class="catalog-2__title title">Каталог живых елок</div>
         </div>
-        <div class="col-lg-3">
+      </div>
+      <div class="row justify-content-center catalog-slider" id="catalog-slider">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -657,9 +660,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -682,9 +685,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -707,9 +710,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -732,20 +735,21 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
+
       </div>
     </div>
   </section>
   <section class="catalog-3" id="catalog-3">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-12">
           <div class="catalog-3__title">Каталог елочек из конфет</div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-3">
+      <div class="row justify-content-center catalog-slider" id="catalog-slider">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -768,9 +772,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -793,9 +797,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -825,12 +829,14 @@
   <section class="catalog-4" id="catalog-4">
     <div class=" container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-12">
           <div class="catalog-4__title title">Каталог украшений для елок</div>
         </div>
-        <div class="col-lg-3">
+      </div>
+      <div class="row justify-content-center catalog-slider" id="catalog-slider">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -853,9 +859,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -878,9 +884,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -903,9 +909,9 @@
             <a href="#offer" class="red-btn catalog__btn">Оставить заявку</a>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="catalog__item">
-            <div class="catalog__inner">
+            <div class="catalog__item-inner">
               <img class="catalog__item-img" src="img/catalog-item.jpg" alt="" />
               <div class="catalog__item-title">
                 Датская ёлка<br />(1-1,25 метров)
@@ -934,9 +940,9 @@
   <section class="contacts">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-sm-10 col-lg-6">
           <div class="contacts__block">
-            <div class="contacs__title title">Контакты</div>
+            <div class="contacts__title title">Контакты</div>
             <ul class="contacts__list">
               <li class="contacts__list-address">
                 Москва, Павелецкая наб.,<br />дом 2, строение 5
@@ -979,7 +985,9 @@
       </div>
     </div>
   </footer>
-  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

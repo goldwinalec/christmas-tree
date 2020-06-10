@@ -614,10 +614,11 @@ button {
 .catalog__item {
   text-align: center;
   min-width: 220px;
-  margin-top: 20px;
+  margin: 20px auto 0;
+  max-width: 220px;
 }
 
-.catalog__inner {
+.catalog__item-inner {
   background-color: #ffffff;
   padding: 10px;
   margin-bottom: 20px;
@@ -650,6 +651,7 @@ button {
   width: 220px;
   font-size: 20px;
   padding: 15px 25px;
+  margin: 0 auto;
 }
 
 .catalog-2 {
@@ -700,20 +702,21 @@ button {
 
 .contacts {
   padding: 30px 0;
-  background-image: url(../img/map.jpg);
+  background-image: url(../img/map-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .contacts__block {
+  max-width: 460px;
   padding: 55px;
   padding-right: 115px;
   background-color: #ffffff;
   box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
 }
 
-.contacs__title {
+.contacts__title {
   font-size: 30px;
   font-weight: 800;
   text-transform: uppercase;
@@ -748,7 +751,7 @@ button {
   background-position: center center;
   background-size: cover;
   position: absolute;
-  left: 0;
+  left: 2px;
   top: 0;
   z-index: 5;
 }
@@ -762,8 +765,8 @@ button {
   background-position: center center;
   background-size: cover;
   position: absolute;
-  left: 0;
-  top: -5px;
+  left: 2px;
+  top: 0;
   z-index: 10;
 }
 
@@ -781,13 +784,41 @@ button {
   z-index: 10;
 }
 
+.catalog__item {
+  position: relative;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 196px;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
 @media screen and (max-width: 992px) {
   .promo,
   .offer,
   .features,
   .sets,
   .feedback,
-  .production {
+  .production,
+  .catalog-1,
+  .catalog-2,
+  .catalog-3,
+  .catalog-4 {
     padding: 45px 0;
   }
 
@@ -910,6 +941,13 @@ button {
 
   .production__title {
     margin-bottom: 45px;
+  }
+
+  .catalog-1__title,
+  .catalog-2__title,
+  .catalog-3__title,
+  .catalog-4__title {
+    margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -1214,6 +1252,31 @@ button {
 
   .production {
     background-image: none;
+  }
+
+  .catalog__item-inner {
+    margin-bottom: 5px;
+  }
+
+  .catalog__item {
+    margin: 0 auto;
+  }
+
+  .contacts__block {
+    margin: 0 auto;
+    padding: 35px 20px;
+  }
+
+  .contacts__title {
+    text-align: center;
+  }
+
+  .contacts__list {
+    font-size: 16px;
+  }
+
+  .contacts__list-phone {
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 355px) {
