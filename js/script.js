@@ -79,7 +79,7 @@ $(`a[href^="#catalog-4"]`).click(function () {
 });
 
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 700){
+  if ($(this).scrollTop() > 500) {
     $("#top-btn").fadeIn();
   } else {
     $("#top-btn").fadeOut();
@@ -87,7 +87,7 @@ $(window).scroll(function () {
 });
 
 $("#top-btn").click(function () {
-  $("html, body").animate({scrollTop: 0,},1000);
+  $("html, body").animate({ scrollTop: 0 }, 1000);
 });
 
 $(".hamburger").click(function () {
