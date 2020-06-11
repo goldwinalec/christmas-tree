@@ -820,14 +820,14 @@ button {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  z-index: 1000;
+  width: 50px;
+  height: 50px;
   border: none;
   outline: none;
   background: rgba(61, 160, 1, 0.6);
   border-radius: 50px;
+  z-index: 1000;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
 }
 .top-btn:focus {
   outline: none;

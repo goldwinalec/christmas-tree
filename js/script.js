@@ -78,9 +78,11 @@ $(`a[href^="#catalog-4"]`).click(function () {
   );
 });
 
+$("#top-btn").css("opacity", 0);
+
 $(window).scroll(function () {
   if ($(this).scrollTop() > 500) {
-    $("#top-btn").fadeIn();
+    $("#top-btn").fadeIn().css("opacity", 1);
   } else {
     $("#top-btn").fadeOut();
   }
