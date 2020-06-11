@@ -1296,6 +1296,11 @@ button {
     margin-bottom: 45px;
   }
 
+  .feedback__img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
   .production__item {
     padding: 15px;
   }
