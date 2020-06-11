@@ -107,3 +107,7 @@ $("#top-btn").click(function () {
 $(".hamburger").click(function () {
   $(".header-nav").toggleClass("open");
 });
+
+$(".navlist-item").click(function () {
+  $(".header-nav").removeClass("open");
+});

@@ -836,6 +836,11 @@ button {
   outline: none;
 }
 
+.top-btn:focus {
+  background: rgba(61, 160, 1, 0.6);
+  outline: none;
+}
+
 .hamburger-menu {
   display: none;
 }
