@@ -103,3 +103,7 @@ $("#top-btn").click(function () {
     1000
   );
 });
+
+$(".hamburger").click(function () {
+  $(".header-nav").toggleClass("open");
+});

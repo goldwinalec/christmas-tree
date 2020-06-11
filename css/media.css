@@ -285,19 +285,22 @@
     margin: 0 auto;
   }
 
-  .header-content,
   .footer-content {
     justify-content: center;
     margin-top: 10px;
   }
 
-  .navlist-item a {
-    font-size: 16px;
+  .header__contacts {
+    display: none;
   }
 
   .navlist {
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navlist-item {
+    margin: 5px;
   }
 
   .promo__title h1 {
@@ -315,6 +318,10 @@
   .promo,
   .features {
     padding: 40px 0;
+  }
+
+  .promo {
+    background: none;
   }
 
   .call-btn {
@@ -468,8 +475,20 @@
   .contacts__list-phone {
     font-size: 18px;
   }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .open {
+    display: block;
+  }
 }
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 400px) {
   .navlist {
     justify-content: space-between;
   }
