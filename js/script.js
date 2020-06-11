@@ -78,30 +78,16 @@ $(`a[href^="#catalog-4"]`).click(function () {
   );
 });
 
-buttonTop = document.getElementById("top-btn");
-
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 700 ||
-    document.documentElement.scrollTop > 700
-  ) {
-    buttonTop.style.display = "block";
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 700){
+    $("#top-btn").fadeIn();
   } else {
-    buttonTop.style.display = "none";
+    $("#top-btn").fadeOut();
   }
-}
+});
 
 $("#top-btn").click(function () {
-  $([document.documentElement, document.body]).animate(
-    {
-      scrollTop: $("#top").offset().top,
-    },
-    1000
-  );
+  $("html, body").animate({scrollTop: 0,},1000);
 });
 
 $(".hamburger").click(function () {
