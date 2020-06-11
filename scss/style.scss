@@ -768,7 +768,7 @@ button {
     background-image: url(../img/phone.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     position: absolute;
     left: 2px;
     top: 0;
@@ -783,7 +783,7 @@ button {
   background-image: url(../img/marker.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   position: absolute;
   left: 2px;
   top: 0;
@@ -792,12 +792,12 @@ button {
 
 .contacts__list-schedule::before {
   content: "";
-  width: 31px;
-  height: 30px;
+  width: 28px;
+  height: 27px;
   background-image: url(../img/time.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   position: absolute;
   left: 0;
   top: 3px;
