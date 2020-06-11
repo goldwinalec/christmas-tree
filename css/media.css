@@ -1,5 +1,4 @@
 @media screen and (max-width: 992px) {
-  .promo,
   .offer,
   .features,
   .sets,
@@ -315,7 +314,6 @@
     max-width: 341px;
   }
 
-  .promo,
   .features {
     padding: 40px 0;
   }
