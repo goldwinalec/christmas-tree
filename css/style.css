@@ -830,14 +830,7 @@ button {
   height: 50px;
   transition: 0.1s;
 }
-
-.top-btn:hover {
-  background: #3da001;
-  outline: none;
-}
-
 .top-btn:focus {
-  background: rgba(61, 160, 1, 0.6);
   outline: none;
 }
 
@@ -854,6 +847,16 @@ button {
   outline: none;
 }
 
+@media screen and (min-width: 992px) {
+  .top-btn:hover {
+    background: #3da001;
+    outline: none;
+  }
+
+  .top-btn:focus {
+    background: rgba(61, 160, 1, 0.6);
+  }
+}
 @media screen and (max-width: 992px) {
   .offer,
   .features,
