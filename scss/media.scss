@@ -415,4 +415,10 @@
   .navlist {
     justify-content: space-between;
   }
+  .slick-prev,
+  .slick-next {
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+  }
 }
