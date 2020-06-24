@@ -78,13 +78,13 @@ $(`a[href^="#catalog-4"]`).click(function () {
   );
 });
 
-$("#top-btn").css({ opacity: 0 });
+$("#top-btn").removeClass("visible");
 
 $(window).scroll(function () {
   if ($(this).scrollTop() > 500) {
-    $("#top-btn").fadeIn().css({ opacity: 1 });
+    $("#top-btn").addClass("visible");
   } else {
-    $("#top-btn").fadeOut();
+    $("#top-btn").removeClass("visible");
   }
 });
 
@@ -95,7 +95,3 @@ $("#top-btn").click(function () {
 $(".hamburger").click(function () {
   $(".header-nav").toggleClass("open");
 });
-
-// $(".navlist-item").click(function () {
-//   $(".header-nav").removeClass("open");
-// });

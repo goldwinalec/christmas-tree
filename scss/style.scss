@@ -848,10 +848,16 @@ button {
   background: rgba(#3da001, 0.6);
   border-radius: 50px;
   z-index: 1000;
+  opacity: 0;
+  transition: all 0.3s;
   cursor: pointer;
   &:focus {
     outline: none;
   }
+}
+
+.top-btn.visible {
+  opacity: 1;
 }
 
 .hamburger-menu {
