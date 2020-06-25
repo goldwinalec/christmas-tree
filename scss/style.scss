@@ -565,7 +565,7 @@ button {
 
 .feedback__item {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .feedback__img {
@@ -611,6 +611,7 @@ button {
 }
 
 .production__img {
+  -o-object-fit: contain;
   object-fit: contain;
 }
 
