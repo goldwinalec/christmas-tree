@@ -42,6 +42,11 @@ a {
   margin-left: -10px;
 }
 
+.col-* {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 .col-10,
 .col-12,
 .col-2,
@@ -652,19 +657,22 @@ button {
 }
 
 .contacts {
-  padding: 30px 0;
-  background-image: url(../img/map-2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  position: relative;
+}
+
+.contacts__map {
+  position: relative;
 }
 
 .contacts__block {
   max-width: 460px;
-  padding: 55px;
+  padding: 40px;
   padding-right: 115px;
   background-color: #ffffff;
   box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
+  position: absolute;
+  z-index: 9;
+  top: 45px;
 }
 
 .contacts__title {
@@ -704,7 +712,7 @@ button {
   position: absolute;
   left: 2px;
   top: 0;
-  z-index: 5;
+  z-index: 10;
 }
 
 .contacts__list-address::before {
@@ -952,6 +960,12 @@ button {
   .catalog-3__title,
   .catalog-4__title {
     margin-bottom: 30px;
+  }
+
+  .contacts__block {
+    max-width: 400px;
+    padding: 50px;
+    padding-right: 80px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -1280,6 +1294,8 @@ button {
   .contacts__block {
     margin: 0 auto;
     padding: 35px 20px;
+    position: static;
+    box-shadow: none;
   }
 
   .contacts__title {

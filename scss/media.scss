@@ -122,6 +122,11 @@
   .catalog-4__title {
     margin-bottom: 30px;
   }
+  .contacts__block{
+  max-width: 400px;
+  padding: 50px;
+  padding-right: 80px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -390,6 +395,8 @@
   .contacts__block {
     margin: 0 auto;
     padding: 35px 20px;
+    position: static;
+    box-shadow: none;
   }
   .contacts__title {
     text-align: center;
