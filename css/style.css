@@ -666,13 +666,13 @@ button {
 
 .contacts__block {
   max-width: 460px;
-  padding: 40px;
+  padding: 35px;
   padding-right: 115px;
   background-color: #ffffff;
   box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
   position: absolute;
   z-index: 9;
-  top: 45px;
+  top: 65px;
 }
 
 .contacts__title {
