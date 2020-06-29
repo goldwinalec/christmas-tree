@@ -126,6 +126,7 @@
   max-width: 400px;
   padding: 50px;
   padding-right: 80px;
+  left: 45px;
   }
 }
 
@@ -241,6 +242,14 @@
   .production__item-title {
     font-size: 14px;
   }
+  .contacts__block {
+    margin: 0 auto;
+    padding: 35px 20px;
+    position: static;
+    box-shadow: none;
+  }
+  .contacts__title{
+  text-align: center;}
 }
 
 @media screen and (max-width: 576px) {
@@ -391,12 +400,6 @@
   }
   .catalog__item {
     margin: 0 auto;
-  }
-  .contacts__block {
-    margin: 0 auto;
-    padding: 35px 20px;
-    position: static;
-    box-shadow: none;
   }
   .contacts__title {
     text-align: center;
